@@ -2,8 +2,8 @@
 module.exports = {
   content: [
     "./public/**/*.{html,js,ts,jsx,tsx}",
-    "node_modules/preline/dist/*.js",
-    "./src/**/*.{html,js}",
+    "./node_modules/preline/dist/*.js",
+    "./src/pages/**/*.{html,js}",
   ],
   theme: {
     extend: {
