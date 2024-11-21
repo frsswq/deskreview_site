@@ -12,7 +12,31 @@ module.exports = {
       fontFamily: {
         sans: ["Inter", "sans-serif"],
       },
+      colors: {
+        'desk-gray': {
+          300: '#eaecec',
+          500: '#bbbdbf',
+          700: '#343535',
+        },
+        'desk-blue': '#2e59a9',
+        'desk-brown': '#574a43',
+        'desk-orange': '#e36c2a',
+        'desk-white': '#ffffff',
+        'desk-black': '#050505',
+      },
     },
   },
   plugins: [require("@tailwindcss/forms"), require("preline/plugin")],
 };
+
+
+
+//$white: #ffffff !default;
+//$gray-300: #eaecec !default;
+//$gray-500: #bbbdbf !default;
+//$gray-700: #343535 !default;
+//$black: #050505 !default;
+
+//$blue: #2e59a9 !default;
+//$brown: #574a43 !default;
+//$orange: #e36c2a !default;
